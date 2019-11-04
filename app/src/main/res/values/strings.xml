@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Mivna</string>
+    <string name="login">Login</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="user_name_email">Email</string>
+    <string name="create_account">Create Account</string>
+
+    <string-array name="Description">
+        <item>Rivets</item>
+        <item>Sealing</item>
+        <item>Wing Boot</item>
+        <item>Center Section Boot</item>
+        <item>Height stabilizer Boot</item>
+        <item>Crack</item>
+        <item>Extracting screws</item>
+        <item>Corrosion</item>
+        <item>Propeller impact</item>
+        <item>Drying</item>
+        <item>Anchor nut</item>
+        <item>Seals</item>
+        <item>primary color</item>
+        <item>Upper color</item>
+    </string-array>
+
+    <string-array name="Area">
+        <item>Right wing</item>
+        <item>Left wing</item>
+        <item>belly skin</item>
+        <item>Cockpit</item>
+        <item>Passenger cabin</item>
+        <item>Right body</item>
+        <item>Left body</item>
+        <item>Right propeller</item>
+        <item>Left propeller</item>
+        <item>roof</item>
+        <item>entry door</item>
+        <item>AUX</item>
+        <item>Right wing tip</item>
+        <item>Left wing tip</item>
+    </string-array>
+
+    <string-array name="From">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="repairer">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="status">
+        <item>Accepted</item>
+        <item>in process</item>
+        <item>Done</item>
+        <item>Permit</item>
+    </string-array>
+
+    <string-array name="item">
+
+    </string-array>
+</resources>
+

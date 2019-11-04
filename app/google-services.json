@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "273043562213",
+    "firebase_url": "https://mivna-4.firebaseio.com",
+    "project_id": "mivna-4",
+    "storage_bucket": "mivna-4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273043562213:android:7d3cf12bb8bd20b2",
+        "android_client_info": {
+          "package_name": "com.oron.mivna"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273043562213-ob9v68pfs9dv4d2dd1i953398mmh22ou.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oron.mivna",
+            "certificate_hash": "2ca030f1a68d4576c58211cec60243d55a0610d7"
+          }
+        },
+        {
+          "client_id": "273043562213-03cpnh1s94h1m9n7g8vgph46mjeplcps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA15a8gyjN1ILFJVY_X-TS97Yye8Ffhjx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273043562213-03cpnh1s94h1m9n7g8vgph46mjeplcps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
