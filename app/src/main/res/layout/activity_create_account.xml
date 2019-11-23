@@ -8,7 +8,7 @@
     tools:context=".Activities.CreateAccountActivity">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/firstNameEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -16,14 +16,14 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="@string/first_name"
-        app:layout_constraintBottom_toTopOf="@+id/editText2"
+        app:layout_constraintBottom_toTopOf="@+id/lastNameEditText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:layout_constraintTop_toBottomOf="@+id/userPicImageButton"
         app:layout_constraintVertical_bias="0.8" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/lastNameEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -31,14 +31,14 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="@string/last_name"
-        app:layout_constraintBottom_toTopOf="@+id/editText3"
+        app:layout_constraintBottom_toTopOf="@+id/userNameEditText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:layout_constraintTop_toBottomOf="@+id/userPicImageButton"
         app:layout_constraintVertical_bias="0.849" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/userNameEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -46,14 +46,14 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="@string/user_name"
-        app:layout_constraintBottom_toTopOf="@+id/editText4"
+        app:layout_constraintBottom_toTopOf="@+id/passwordEditText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:layout_constraintTop_toBottomOf="@+id/userPicImageButton"
         app:layout_constraintVertical_bias="0.889" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/passwordEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -61,14 +61,14 @@
         android:ems="10"
         android:inputType="textPassword"
         android:hint="@string/password"
-        app:layout_constraintBottom_toTopOf="@+id/editText5"
+        app:layout_constraintBottom_toTopOf="@+id/confirmPasswordEditText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:layout_constraintTop_toBottomOf="@+id/userPicImageButton"
         app:layout_constraintVertical_bias="0.922" />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/confirmPasswordEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -76,14 +76,14 @@
         android:ems="10"
         android:inputType="textPassword"
         android:hint="@string/confirm_password"
-        app:layout_constraintBottom_toTopOf="@+id/editText6"
+        app:layout_constraintBottom_toTopOf="@+id/phoneNumberEditText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:layout_constraintTop_toBottomOf="@+id/userPicImageButton"
         app:layout_constraintVertical_bias="0.92" />
 
     <EditText
-        android:id="@+id/editText6"
+        android:id="@+id/phoneNumberEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -91,14 +91,14 @@
         android:ems="10"
         android:inputType="phone"
         android:hint="@string/phone_number"
-        app:layout_constraintBottom_toTopOf="@+id/editText7"
+        app:layout_constraintBottom_toTopOf="@+id/emailEditText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:layout_constraintTop_toBottomOf="@+id/userPicImageButton"
         app:layout_constraintVertical_bias="0.94" />
 
     <EditText
-        android:id="@+id/editText7"
+        android:id="@+id/emailEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -106,14 +106,14 @@
         android:ems="10"
         android:inputType="textEmailAddress"
         android:hint="@string/user_name_email"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/createAccountButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:layout_constraintTop_toBottomOf="@+id/userPicImageButton"
         app:layout_constraintVertical_bias="0.814" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/logoImageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -125,11 +125,11 @@
         app:srcCompat="@drawable/common_google_signin_btn_icon_dark" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/userPicImageButton"
         android:layout_width="59dp"
         android:layout_height="54dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintEnd_toStartOf="@+id/logoImageView"
         app:layout_constraintHorizontal_bias="0.167"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -137,7 +137,7 @@
         app:srcCompat="@drawable/common_google_signin_btn_icon_dark" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/createAccountButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"

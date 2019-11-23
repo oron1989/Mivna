@@ -9,6 +9,11 @@
     <string name="phone_number">Phone Number</string>
     <string name="user_name_email">Email</string>
     <string name="create_account">Create Account</string>
+    <string name="user_management">User Management</string>
+    <string name="technical_information">Technical Information</string>
+    <string name="rank">rank</string>
+    <string name="classification">classification</string>
+    <string name="created">created</string>
 
     <string-array name="Description">
         <item>Rivets</item>
